@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/helpers/reset.css">
+    <link rel="stylesheet" href="./styles/helpers/fonts.css">
+    <link rel="stylesheet" href="./styles/template/index.css">
+    <title>Projeto para treino de CSS</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="navigation">
+            <img class="logo-profile-photo" src="../src/public/img/logo.png" alt="Imagem do logo">
+            <ul class="navigation__links">
+                <li><a class="navigation__links__item-link" href="">Quem sou</a></li>
+                <li><a class="navigation__links__item-link" href="">Projetos</a></li>
+                <li><a class="navigation__links__item-link" href="">Contato</a></li>
+            </ul>
+        </nav>
+
+        <aside class="aside">
+            <img class="logo-profile-photo" src="../src/public/img/aside-photo.png" alt="Foto da barra lateral">
+            <div>
+            <h1 class="person-name">Paulo Rodrigues</h1>
+            <p class="person-details">Front End Developer</p>
+            <p class="person-details"><a href="mailto:pauloadesr@gmail.com">pauloadesr@gmail.com</a></p>
+            </div>
+
+            <ul class="aside__social-icon-items">
+                <li><a href=""><img class="aside__social-icon-list__social-icon-item" src="../src/public/img/icons/github-logo.svg" alt="Logo do github"></a></li>
+                <li><a href=""><img class="aside__social-icon-list__social-icon-item" src="../src/public/img/icons/medium-logo.svg" alt="Logo do medium"></a></li>
+                <li><a href=""><img class="aside__social-icon-list__social-icon-item" src="../src/public/img/icons/twitter-logo.svg" alt="Logo do twitter"></a></li>
+            </ul>
+        </aside>
+
+        <main class="main">
+            <section class="main__about">
+                <img class="logo-profile-photo" src="../src/public/img/profile-photo.png" alt="Imagem de perfil">
+                <div class="description-block">
+                    <h2 class="main__title">Quem sou?</h2>
+                    <p class="main__description">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem quos odio nesciunt, quae asperiores unde exercitationem assumenda explicabo veritatis ducimus veniam iste, obcaecati quia error corporis dicta! Ipsum, qui! Id.
+                        Error cupiditate, corporis consectetur porro odit sint quia, alias non, voluptatem suscipit quisquam. Nobis temporibus tempora, accusamus earum unde possimus incidunt. Quis, fugit? Facilis eaque minus natus cum ratione itaque!
+                        Animi autem labore deserunt necessitatibus repellat eius excepturi voluptate optio consectetur eaque quis fuga veniam, molestias aliquid dolorum sequi obcaecati impedit nulla. Perspiciatis ullam est quia sit aut rem fugiat.
+                    </p>
+                </div>
+            </section>
+
+            <section class="main__projects">
+                <h2 class="main__title">Projetos</h2>
+                <div>
+                <img src="../src/public/img/img1.png" alt="">
+                <img src="../src/public/img/img2.png" alt="">
+                <img src="../src/public/img/img3.png" alt="">
+                <img src="../src/public/img/img4.png" alt="">
+                <img src="../src/public/img/img5.png" alt="">
+                </div>
+            </section>
+
+            <section class="main__contact">
+                <h2 class="main__title">Contato</h2>
+                <p class="main__description">
+                    Gostou? Entre em contato e tire suas dúvidas
+                </p>
+
+                <form class="main__contact__form" action="">
+                    <label class="label" for="name">Nome Completo: </label>
+                    <input class="input" type="text" name="name" id="name" placeholder="Insira seu nome completo:">
+                    <label class="label" for="email">Email: </label>
+                    <input class="input" type="email" name="email" id="email" placeholder="Insira seu E-mail:">
+
+                    <label class="label" for="subject">Assunto</label>
+                    <input class="input" type="text" name="subject" id="subject" placeholder="Insira o assunto:">
+
+                    <label class="label" for="message">Mensagem</label>
+                    <textarea class="input" name="message" id="message" cols="30" rows="10"></textarea>
+
+                    <button class="button" type="submit">Enviar Mensagem</button>
+                </form>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <h3 class="footer__subtitle">Paulo Rodrigues 2020</h3>
+        </footer>
+    </div>
+</body>
+</html>
